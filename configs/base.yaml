@@ -1,0 +1,10 @@
+paths:
+  data_root: data/raw
+  cache_root: data/cache
+  artifacts_root: artifacts
+  dictionary_root: data/dictionary
+seed: 42
+data:
+  n_folds: 5
+  num_labels: 250
+  fps: 30

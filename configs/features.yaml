@@ -1,0 +1,7 @@
+use_z: false
+use_left_hand: true
+use_right_hand: true
+use_pose_upper: true
+use_lips: true
+use_motion: true
+n_frames: 64

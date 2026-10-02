@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: signbridge
+Version: 0.1.0
+Summary: Real-time, bidirectional ASL<->English translator
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: onnxruntime
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+# signbridge
+A real-time, bidirectional ASL<->English translator. 
+Direction 1: webcam -> MediaPipe landmarks -> sign recognition -> English word. 
+Direction 2: English text -> sequence of 3D landmark frames -> 3D avatar.
